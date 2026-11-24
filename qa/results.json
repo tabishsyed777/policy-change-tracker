@@ -1,0 +1,368 @@
+{
+  "automated_gates_pass": true,
+  "metrics": {
+    "cases": 30,
+    "answer_accuracy": 1,
+    "citation_exact": 1,
+    "recall_at_5": 1.0,
+    "grounded_answer_exact": 1,
+    "refusal": 1,
+    "concurrent_accuracy": 1,
+    "p50_ms": 3.53898250000384,
+    "p95_ms": 8.893021999938355,
+    "records": 12,
+    "source_bytes": 1777,
+    "concurrent_readers": 50,
+    "golden_sha256": "438ff8004faa7faa04653d61b8ff90a7dc6f5f19cf68cfae9a7bcdf8c52a4653"
+  },
+  "observations": [
+    {
+      "question": "meal allowance on 2025-04-30",
+      "status": "answered",
+      "answer": "INR 300",
+      "method": "effective date",
+      "citations": [
+        {
+          "id": "rule-0-1",
+          "source": "source.json#/0"
+        }
+      ]
+    },
+    {
+      "question": "meal allowance on 2025-07-01",
+      "status": "answered",
+      "answer": "INR 400",
+      "method": "effective date",
+      "citations": [
+        {
+          "id": "rule-0-2",
+          "source": "source.json#/1"
+        }
+      ]
+    },
+    {
+      "question": "Changes to meal allowance from 2025-02-01 to 2025-08-01",
+      "status": "answered",
+      "answer": "INR 300 → INR 400",
+      "method": "endpoint comparison",
+      "citations": [
+        {
+          "id": "rule-0-1",
+          "source": "source.json#/0"
+        },
+        {
+          "id": "rule-0-2",
+          "source": "source.json#/1"
+        }
+      ]
+    },
+    {
+      "question": "meal allowance on 2024-12-31",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Changes to meal allowance from 2025-02-01 to 2025-03-01",
+      "status": "answered",
+      "answer": "Unchanged: INR 300",
+      "method": "endpoint comparison",
+      "citations": [
+        {
+          "id": "rule-0-1",
+          "source": "source.json#/0"
+        }
+      ]
+    },
+    {
+      "question": "leave notice on 2025-04-30",
+      "status": "answered",
+      "answer": "5 days",
+      "method": "effective date",
+      "citations": [
+        {
+          "id": "rule-1-1",
+          "source": "source.json#/2"
+        }
+      ]
+    },
+    {
+      "question": "leave notice on 2025-07-01",
+      "status": "answered",
+      "answer": "7 days",
+      "method": "effective date",
+      "citations": [
+        {
+          "id": "rule-1-2",
+          "source": "source.json#/3"
+        }
+      ]
+    },
+    {
+      "question": "Changes to leave notice from 2025-02-01 to 2025-08-01",
+      "status": "answered",
+      "answer": "5 days → 7 days",
+      "method": "endpoint comparison",
+      "citations": [
+        {
+          "id": "rule-1-1",
+          "source": "source.json#/2"
+        },
+        {
+          "id": "rule-1-2",
+          "source": "source.json#/3"
+        }
+      ]
+    },
+    {
+      "question": "leave notice on 2024-12-31",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Changes to leave notice from 2025-02-01 to 2025-03-01",
+      "status": "answered",
+      "answer": "Unchanged: 5 days",
+      "method": "endpoint comparison",
+      "citations": [
+        {
+          "id": "rule-1-1",
+          "source": "source.json#/2"
+        }
+      ]
+    },
+    {
+      "question": "travel receipts on 2025-04-30",
+      "status": "answered",
+      "answer": "optional",
+      "method": "effective date",
+      "citations": [
+        {
+          "id": "rule-2-1",
+          "source": "source.json#/4"
+        }
+      ]
+    },
+    {
+      "question": "travel receipts on 2025-07-01",
+      "status": "answered",
+      "answer": "required",
+      "method": "effective date",
+      "citations": [
+        {
+          "id": "rule-2-2",
+          "source": "source.json#/5"
+        }
+      ]
+    },
+    {
+      "question": "Changes to travel receipts from 2025-02-01 to 2025-08-01",
+      "status": "answered",
+      "answer": "optional → required",
+      "method": "endpoint comparison",
+      "citations": [
+        {
+          "id": "rule-2-1",
+          "source": "source.json#/4"
+        },
+        {
+          "id": "rule-2-2",
+          "source": "source.json#/5"
+        }
+      ]
+    },
+    {
+      "question": "travel receipts on 2024-12-31",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Changes to travel receipts from 2025-02-01 to 2025-03-01",
+      "status": "answered",
+      "answer": "Unchanged: optional",
+      "method": "endpoint comparison",
+      "citations": [
+        {
+          "id": "rule-2-1",
+          "source": "source.json#/4"
+        }
+      ]
+    },
+    {
+      "question": "equipment limit on 2025-04-30",
+      "status": "answered",
+      "answer": "2 devices",
+      "method": "effective date",
+      "citations": [
+        {
+          "id": "rule-3-1",
+          "source": "source.json#/6"
+        }
+      ]
+    },
+    {
+      "question": "equipment limit on 2025-07-01",
+      "status": "answered",
+      "answer": "3 devices",
+      "method": "effective date",
+      "citations": [
+        {
+          "id": "rule-3-2",
+          "source": "source.json#/7"
+        }
+      ]
+    },
+    {
+      "question": "Changes to equipment limit from 2025-02-01 to 2025-08-01",
+      "status": "answered",
+      "answer": "2 devices → 3 devices",
+      "method": "endpoint comparison",
+      "citations": [
+        {
+          "id": "rule-3-1",
+          "source": "source.json#/6"
+        },
+        {
+          "id": "rule-3-2",
+          "source": "source.json#/7"
+        }
+      ]
+    },
+    {
+      "question": "equipment limit on 2024-12-31",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Changes to equipment limit from 2025-02-01 to 2025-03-01",
+      "status": "answered",
+      "answer": "Unchanged: 2 devices",
+      "method": "endpoint comparison",
+      "citations": [
+        {
+          "id": "rule-3-1",
+          "source": "source.json#/6"
+        }
+      ]
+    },
+    {
+      "question": "expense deadline on 2025-04-30",
+      "status": "answered",
+      "answer": "14 days",
+      "method": "effective date",
+      "citations": [
+        {
+          "id": "rule-4-1",
+          "source": "source.json#/8"
+        }
+      ]
+    },
+    {
+      "question": "expense deadline on 2025-07-01",
+      "status": "answered",
+      "answer": "10 days",
+      "method": "effective date",
+      "citations": [
+        {
+          "id": "rule-4-2",
+          "source": "source.json#/9"
+        }
+      ]
+    },
+    {
+      "question": "Changes to expense deadline from 2025-02-01 to 2025-08-01",
+      "status": "answered",
+      "answer": "14 days → 10 days",
+      "method": "endpoint comparison",
+      "citations": [
+        {
+          "id": "rule-4-1",
+          "source": "source.json#/8"
+        },
+        {
+          "id": "rule-4-2",
+          "source": "source.json#/9"
+        }
+      ]
+    },
+    {
+      "question": "expense deadline on 2024-12-31",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Changes to expense deadline from 2025-02-01 to 2025-03-01",
+      "status": "answered",
+      "answer": "Unchanged: 14 days",
+      "method": "endpoint comparison",
+      "citations": [
+        {
+          "id": "rule-4-1",
+          "source": "source.json#/8"
+        }
+      ]
+    },
+    {
+      "question": "remote days on 2025-04-30",
+      "status": "answered",
+      "answer": "1 per week",
+      "method": "effective date",
+      "citations": [
+        {
+          "id": "rule-5-1",
+          "source": "source.json#/10"
+        }
+      ]
+    },
+    {
+      "question": "remote days on 2025-07-01",
+      "status": "answered",
+      "answer": "2 per week",
+      "method": "effective date",
+      "citations": [
+        {
+          "id": "rule-5-2",
+          "source": "source.json#/11"
+        }
+      ]
+    },
+    {
+      "question": "Changes to remote days from 2025-02-01 to 2025-08-01",
+      "status": "answered",
+      "answer": "1 per week → 2 per week",
+      "method": "endpoint comparison",
+      "citations": [
+        {
+          "id": "rule-5-1",
+          "source": "source.json#/10"
+        },
+        {
+          "id": "rule-5-2",
+          "source": "source.json#/11"
+        }
+      ]
+    },
+    {
+      "question": "remote days on 2024-12-31",
+      "status": "insufficient_evidence",
+      "answer": null,
+      "citations": []
+    },
+    {
+      "question": "Changes to remote days from 2025-02-01 to 2025-03-01",
+      "status": "answered",
+      "answer": "Unchanged: 1 per week",
+      "method": "endpoint comparison",
+      "citations": [
+        {
+          "id": "rule-5-1",
+          "source": "source.json#/10"
+        }
+      ]
+    }
+  ]
+}

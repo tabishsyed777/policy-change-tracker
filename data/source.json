@@ -1,0 +1,86 @@
+[
+  {
+    "id": "rule-0-1",
+    "source": "source.json#/0",
+    "topic": "meal allowance",
+    "effective": "2025-01-01",
+    "rule": "INR 300"
+  },
+  {
+    "id": "rule-0-2",
+    "source": "source.json#/1",
+    "topic": "meal allowance",
+    "effective": "2025-07-01",
+    "rule": "INR 400"
+  },
+  {
+    "id": "rule-1-1",
+    "source": "source.json#/2",
+    "topic": "leave notice",
+    "effective": "2025-01-01",
+    "rule": "5 days"
+  },
+  {
+    "id": "rule-1-2",
+    "source": "source.json#/3",
+    "topic": "leave notice",
+    "effective": "2025-07-01",
+    "rule": "7 days"
+  },
+  {
+    "id": "rule-2-1",
+    "source": "source.json#/4",
+    "topic": "travel receipts",
+    "effective": "2025-01-01",
+    "rule": "optional"
+  },
+  {
+    "id": "rule-2-2",
+    "source": "source.json#/5",
+    "topic": "travel receipts",
+    "effective": "2025-07-01",
+    "rule": "required"
+  },
+  {
+    "id": "rule-3-1",
+    "source": "source.json#/6",
+    "topic": "equipment limit",
+    "effective": "2025-01-01",
+    "rule": "2 devices"
+  },
+  {
+    "id": "rule-3-2",
+    "source": "source.json#/7",
+    "topic": "equipment limit",
+    "effective": "2025-07-01",
+    "rule": "3 devices"
+  },
+  {
+    "id": "rule-4-1",
+    "source": "source.json#/8",
+    "topic": "expense deadline",
+    "effective": "2025-01-01",
+    "rule": "14 days"
+  },
+  {
+    "id": "rule-4-2",
+    "source": "source.json#/9",
+    "topic": "expense deadline",
+    "effective": "2025-07-01",
+    "rule": "10 days"
+  },
+  {
+    "id": "rule-5-1",
+    "source": "source.json#/10",
+    "topic": "remote days",
+    "effective": "2025-01-01",
+    "rule": "1 per week"
+  },
+  {
+    "id": "rule-5-2",
+    "source": "source.json#/11",
+    "topic": "remote days",
+    "effective": "2025-07-01",
+    "rule": "2 per week"
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "q": "meal allowance on 2025-04-30",
+    "a": "INR 300",
+    "ids": [
+      "rule-0-1"
+    ]
+  },
+  {
+    "q": "meal allowance on 2025-07-01",
+    "a": "INR 400",
+    "ids": [
+      "rule-0-2"
+    ]
+  },
+  {
+    "q": "Changes to meal allowance from 2025-02-01 to 2025-08-01",
+    "a": "INR 300 → INR 400",
+    "ids": [
+      "rule-0-1",
+      "rule-0-2"
+    ]
+  },
+  {
+    "q": "meal allowance on 2024-12-31",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Changes to meal allowance from 2025-02-01 to 2025-03-01",
+    "a": "Unchanged: INR 300",
+    "ids": [
+      "rule-0-1"
+    ]
+  },
+  {
+    "q": "leave notice on 2025-04-30",
+    "a": "5 days",
+    "ids": [
+      "rule-1-1"
+    ]
+  },
+  {
+    "q": "leave notice on 2025-07-01",
+    "a": "7 days",
+    "ids": [
+      "rule-1-2"
+    ]
+  },
+  {
+    "q": "Changes to leave notice from 2025-02-01 to 2025-08-01",
+    "a": "5 days → 7 days",
+    "ids": [
+      "rule-1-1",
+      "rule-1-2"
+    ]
+  },
+  {
+    "q": "leave notice on 2024-12-31",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Changes to leave notice from 2025-02-01 to 2025-03-01",
+    "a": "Unchanged: 5 days",
+    "ids": [
+      "rule-1-1"
+    ]
+  },
+  {
+    "q": "travel receipts on 2025-04-30",
+    "a": "optional",
+    "ids": [
+      "rule-2-1"
+    ]
+  },
+  {
+    "q": "travel receipts on 2025-07-01",
+    "a": "required",
+    "ids": [
+      "rule-2-2"
+    ]
+  },
+  {
+    "q": "Changes to travel receipts from 2025-02-01 to 2025-08-01",
+    "a": "optional → required",
+    "ids": [
+      "rule-2-1",
+      "rule-2-2"
+    ]
+  },
+  {
+    "q": "travel receipts on 2024-12-31",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Changes to travel receipts from 2025-02-01 to 2025-03-01",
+    "a": "Unchanged: optional",
+    "ids": [
+      "rule-2-1"
+    ]
+  },
+  {
+    "q": "equipment limit on 2025-04-30",
+    "a": "2 devices",
+    "ids": [
+      "rule-3-1"
+    ]
+  },
+  {
+    "q": "equipment limit on 2025-07-01",
+    "a": "3 devices",
+    "ids": [
+      "rule-3-2"
+    ]
+  },
+  {
+    "q": "Changes to equipment limit from 2025-02-01 to 2025-08-01",
+    "a": "2 devices → 3 devices",
+    "ids": [
+      "rule-3-1",
+      "rule-3-2"
+    ]
+  },
+  {
+    "q": "equipment limit on 2024-12-31",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Changes to equipment limit from 2025-02-01 to 2025-03-01",
+    "a": "Unchanged: 2 devices",
+    "ids": [
+      "rule-3-1"
+    ]
+  },
+  {
+    "q": "expense deadline on 2025-04-30",
+    "a": "14 days",
+    "ids": [
+      "rule-4-1"
+    ]
+  },
+  {
+    "q": "expense deadline on 2025-07-01",
+    "a": "10 days",
+    "ids": [
+      "rule-4-2"
+    ]
+  },
+  {
+    "q": "Changes to expense deadline from 2025-02-01 to 2025-08-01",
+    "a": "14 days → 10 days",
+    "ids": [
+      "rule-4-1",
+      "rule-4-2"
+    ]
+  },
+  {
+    "q": "expense deadline on 2024-12-31",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Changes to expense deadline from 2025-02-01 to 2025-03-01",
+    "a": "Unchanged: 14 days",
+    "ids": [
+      "rule-4-1"
+    ]
+  },
+  {
+    "q": "remote days on 2025-04-30",
+    "a": "1 per week",
+    "ids": [
+      "rule-5-1"
+    ]
+  },
+  {
+    "q": "remote days on 2025-07-01",
+    "a": "2 per week",
+    "ids": [
+      "rule-5-2"
+    ]
+  },
+  {
+    "q": "Changes to remote days from 2025-02-01 to 2025-08-01",
+    "a": "1 per week → 2 per week",
+    "ids": [
+      "rule-5-1",
+      "rule-5-2"
+    ]
+  },
+  {
+    "q": "remote days on 2024-12-31",
+    "a": null,
+    "ids": []
+  },
+  {
+    "q": "Changes to remote days from 2025-02-01 to 2025-03-01",
+    "a": "Unchanged: 1 per week",
+    "ids": [
+      "rule-5-1"
+    ]
+  }
+]
